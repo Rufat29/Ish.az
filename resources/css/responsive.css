@@ -1,0 +1,332 @@
+/* NAVBAR */
+@media only screen and (max-width:1213px){
+    .fresh-navbar{
+        min-height: 70px;
+        display: grid;
+        grid-template-columns: 15% 85% !important;
+      }
+}
+@media only screen and (max-width:992px){
+    .fresh-navbar{
+        height: 70px;
+        display: grid;
+        grid-template-columns: unset !important;
+        grid-template-rows: 100% 100% !important;
+    }
+    .fresh-nav-menu{
+        display: grid;
+        grid-template-columns: 16% 16% 16% 11% 16% 25% !important;
+    }
+    .fresh-nav-branding{
+        justify-self: center !important;
+    }
+}
+@media only screen and (max-width:768px){
+    .fresh-navbar{
+        min-height: 70px;
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 24px;
+      }
+      
+      .fresh-nav-menu{
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+        gap: unset !important;
+      }
+      .fresh-nav-branding{
+        font-size: 2rem;
+      }
+    .profile{
+      display: flex;
+      flex-direction: column;
+    }
+    .profile .profile-left{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .profile .profile-left .profile-btn{
+      display: flex;
+      align-items: center;
+    }
+    .share-btn{
+      margin: 10px 0;
+      display: flex;
+      justify-content: center !important;
+    }
+  }
+/* NAVBAR-END */
+@media only screen and (max-width:1200px){
+  .how-we-work-inner p{
+    font-size: .8em;
+    padding: 5px 0 0 0;
+  }
+}
+@media only screen and (max-width:992px){
+  #Project .left-project p{
+    font-size: 2em;
+    text-align: center;
+  }
+  #Project .left-project h1{
+    font-size: 2em;
+    text-align: center;
+  }
+  #Project .right-project img {
+    margin: 25px 0 0 0;
+  }
+  #Project .left-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .vacancy-card{
+    margin: 15px 0;
+  }
+  .job-info-row{
+    text-align: center;
+  }
+  .how-we-work{
+    display: flex;
+    flex-direction: column;
+  }
+  .defis-1{
+    width: 100%;
+    text-align: center;
+  }
+  .res-cards{
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .how-we-work-inner{
+    margin: 10px ;
+  }
+  #Sign-in .login {
+    width: 75%;
+  }
+  #Register .login {
+    width: 80%;
+  }
+  .left-request{
+    margin: 0 0 20px 0;
+  }
+  #Team-info .team-info .team-info-social {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#New-team-vakancy .login {
+    width: 100%;
+}
+#New-vakancy .login {
+  width: 100%;
+}
+}
+@media only screen and (max-width:768px){
+.job-intro-row{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.job-info{
+    text-align: center;
+}
+.apply a {
+    font-size: 1em !important;
+    text-align: center;
+}
+.job-img{
+  margin: auto;
+}
+.do-premium a{
+    font-size: 1em !important;
+    text-align: center;
+}
+.job-info-row{
+    padding: 30px 15px!important;
+}
+.job-info-details-item h1{
+    font-size: 1.2em !important;
+    text-align: center;
+}
+.job-info-details-item p{
+  text-align: center;
+  font-size: 1em !important;
+}
+.footer-item p{
+  font-size: unset !important;
+}
+.footer-item a{
+  font-size: unset !important;
+}
+.how-we-work-inner{
+  width: 45%;
+}
+}
+@media only screen and (max-width:600px){
+  .footer-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-item{
+      text-align: center;
+      margin: 10px 0;
+}
+.footer-item img{
+      margin:unset !important;
+}
+}
+@media only screen and (max-width:550px){
+  .res-cards{
+        flex-direction: column;
+        justify-content: center;
+  }
+  .how-we-work-inner{
+    width: 80%;
+    margin: 10px auto;
+  }
+  .how-we-work-inner:last-child{
+    width: 80%;
+    margin: 10px auto;
+  }
+}
+@media only screen and (max-width:500px){
+  #home .left-project h1{
+    font-size: 2.1em;
+}
+#Sign-in .login {
+    width: 90%;
+}
+#Register .login {
+  width: 100%;
+}
+#Register .login h3 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+.right-request {
+  padding: 25px;
+}
+#Team-info .team-info{
+  padding: 25px;
+}
+.new-vakancy-btn .vakancy-bt {
+  width: 45% !important;
+  padding: 10px  5px;
+  height: unset !important;
+}
+.new-vakancy-btn a {
+  width: 45% !important;
+}
+.new-vakancy-btn .vakancy-bt-active {
+  width: 90% !important;
+  padding: 10px  5px;
+  height: unset !important;
+} 
+ #New-vakancy .new-vakancy-btn .vakancy-bt-active {
+  width: 45% !important;
+  padding: 10px  5px;
+  height: unset !important;
+}
+#New-vakancy .new-vakancy-btn a {
+  width: 45% !important;
+}
+#New-vakancy .new-vakancy-btn .vakancy-bt {
+  width: 90% !important;
+  padding: 10px  5px;
+  height: unset !important;
+} 
+.announ-title{
+  text-align: center;
+}
+}
+@media only screen and (max-width:400px){
+  #Announ .announ-item{
+    grid-template-rows:50% 50%;
+    grid-template-columns: 50% 50%;
+}
+#Register .form-name label {
+  color: #fff;
+  width: 100%;
+}
+#Announ .announ-header{
+  grid-template-rows:50% 50%;
+  grid-template-columns: 50% 50%;
+
+}
+.form-name{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#New-vakancy .form-name label {
+  color: #fff;
+  width: 100%;
+}
+#New-vakancy .form-name select {
+  width: 100%;
+}
+#New-vakancy .form-name .date {
+  width: 100%;
+}
+#New-team-vakancy .form-name select {
+  width: 100%;
+}
+#New-team-vakancy .form-name .date {
+  width: 100%;
+}
+}
+@media only screen and (max-width:375px){
+  .main-slider-title{
+    text-align: center;
+  }
+  #Team-info .team-info {
+    padding: 5px;
+    text-align: center;
+  }
+  .right-request .request-item {
+    display: unset !important;
+}
+  .right-request .request-item .request-item-left {
+    margin: unset;
+}
+  .right-request .request-item .request-item-right {
+    margin: unset;
+}
+#Team-info .team-info span {
+  font-size: unset;
+  padding: unset;
+}
+}
+@media only screen and (max-width:350px){
+  .vacancy-card-tag{
+    flex-wrap: wrap;
+  }
+  .vacancy-card-footer-1{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .vacancy-card-footer-1-img img{
+    margin: 10px 0;
+  }
+  .vacancy-card-footer-2{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .vacancy-card-footer-2 button{
+    margin: 5px 0;
+  }
+}
+

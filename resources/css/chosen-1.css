@@ -1,0 +1,13 @@
+div.side-by-side { width: 100%; margin-bottom: 1em; }
+div.side-by-side > div { float: left; width: 49%; }
+div.side-by-side > div > em { margin-bottom: 10px; display: block; }
+.faqs em { display: block; }
+.clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
